@@ -1,0 +1,314 @@
+#Conversions
+#Distance
+foot=int(input("enter foot"))
+inches = foot * 12
+print("result is  ",inches)
+
+inches=int(input("enter inches"))
+foot=inches/12
+print("result is  ",foot)
+
+yard=int(input("enter yard"))
+feet=yard*3
+print("result is  ",feet)
+
+feet=int(input("enter feet"))
+yard=feet/3
+print("result is  ",yard)
+
+miles=float(input("enter miles"))
+feet=miles*5280
+print("result is ",feet)
+
+feet=float(input("enter feet"))
+miles=feet/5280
+print("result is ",miles)
+
+miles=int(input("enter the miles"))
+kilo=miles*1.61
+print("result is  ",kilo)
+
+kilo=int(input("enter the kilo"))
+miles=kilo/1.61
+print("result is  ",miles)
+
+inch=int(input("enter the inch"))
+centimeter=inch*2.54
+print("result is  ",centimeter)
+
+centimeter=int(input("enter the centimeter"))
+inch=centimeter/2.54
+print("result is  ",inch)
+
+
+foot=int(input("enter foot"))
+meter=foot*0.3048
+print("result is  ",meter)
+
+meter=int(input("enter meter"))
+foot=meter/0.3048
+print("result is  ",foot)
+
+meter=int(input("enter the meter"))
+millimeter=meter*1000
+print("result is  ",millimeter)
+
+millimeter=int(input("enter the millimeter"))
+meter=millimeter/1000
+print("result is  ",meter)
+
+meter=int(input("enter meter"))
+centimeter=meter*100
+print("result is  ",centimeter)
+
+
+centimeter=int(input("enter centimeter"))
+meter=centimeter/100
+print("result is  ",meter)
+
+kilometer=int(input("enter kilometer"))
+meter=kilometer*1000
+print("result is ",meter)
+
+meter=int(input("enter meter"))
+kilometer=meter/1000
+print("result is ",kilometer)
+
+kilometer=int(input("enter kilometer"))
+miles=kilometer*0.62
+print("result is  ",miles)
+
+miles=int(input("enter meter"))
+kilometer=miles/0.62
+print("result is  ",kilometer)
+
+#AREA
+square_feet=int(input("enter square feet"))
+square_inches=square_feet*144
+print("result is  ",square_inches)
+
+square_inches=int(input("enter square inches"))
+square_feet=square_inches/144
+print("result is  ",square_feet)
+
+
+square_ward=int(input("enter square ward"))
+square_feet=square_ward*9
+print("result is  ",square_feet)
+
+square_feet=int(input("enter square feet"))
+square_ward=square_feet/9
+print("result is  ",square_ward)
+
+
+acre=int(input("enter the acre"))
+square_feet=acre*43560
+print("result is  ",square_feet)
+
+
+square_feet=int(input("enter the square_feet"))
+acre=square_feet/43560
+print("result is  ",acre)
+
+
+#VOLUME
+cup=int(input("enter the cup"))
+fluid_ounces=cup*8
+print("result is  ",fluid_ounces)
+
+fluid_ounces=int(input("enter the fluid ounces"))
+cup=fluid_ounces/8
+print("result is  ",cup)
+
+quard=int(input("enter quard"))
+cup=quard*4
+print("result is ",cup)
+
+cup=int(input("enter cup"))
+quard=cup/4
+print("result is ",quard)
+
+gallon=int(input("enter the gallon"))
+quard=gallon*4
+print("result is  ",quard)
+
+quard=int(input("enter the quard"))
+gallon=quard/4
+print("result is  ",gallon)
+
+
+gallon=int(input("enter gallon"))
+cubic_inch=gallon*231
+print("result is ",cubic_inch)
+
+cubic_inch=int(input("enter cubic inch"))
+gallon=cubic_inch/231
+print("result is ",gallon)
+
+
+liter=int(input("enter the liter"))
+gallon=liter*0.264
+print("result is ",gallon)
+
+gallon=int(input("enter gallon"))
+liter=gallon/0.264
+print("result is ",liter)
+
+#WEIGHT
+ounce=int(input("enter ounce"))
+grams=ounce*28.350
+print("result is  ",grams)
+
+
+grams=int(input("enter grams"))
+ounce=grams/28.350
+print("result is  ",ounce)
+
+
+pound=int(input("enter pound"))
+ounce=pound*16
+print("result is  ",ounce)
+
+ounce=int(input("enter ounce"))
+pound=ounce/16
+print("result is  ",pound)
+
+
+pound=int(input("enter pound"))
+grams=pound*453.592
+print("result is  ",grams)
+
+grams=int(input("enter grams"))
+pound=grams/453.592
+print("result is  ",pound)
+
+milligram=int(input("enter the milligrams"))
+grams=milligram*0.001
+print("result is  ",grams)
+
+grams=int(input("enter the grams"))
+milligram=grams/0.001
+print("result is  ",milligram)
+
+
+kilogram=int(input("enter kilogram"))
+grams=kilogram*1000
+print("result is ",grams)
+
+grams=int(input("enter grams"))
+kilogram=grams/1000
+print("result is  ",kilogram)
+
+
+kilogram=int(input("enter kilogram"))
+pounds=kilogram*2.2
+print("result is ",pounds)
+
+
+pounds=int(input("enter pounds"))
+kilogram=pounds/2.2
+print("result is  ",kilogram)
+
+
+ton=int(input("enter tons"))
+pounds=ton*2000
+print("result is  ",pounds)
+
+pounds=int(input("enter pounds"))
+ton=pounds/2000
+print("result is  ",ton)
+
+
+#RECTANGLE
+l=int(input("enter length"))
+w=int(input("enter width"))
+p=2*l+w
+print("result is  ",p)
+
+
+l=int(input("enter length"))
+w=int(input("enter width"))
+a=l+w
+print("result is  ",a)
+
+
+#RECTANGULAR SOLID(BOX)
+
+l=int(input("enter length"))
+w=int(input("enter width"))
+h=int(input("enter height"))
+v=l*w*h
+print("result is  ",v)
+
+
+#CUBE
+s=int(input("enter the sides"))
+v=s*s*s
+print("result is  ",v)
+
+#TRIANGLE
+num_sides=int(input("enter number of sides"))
+sum_of_angles = (num_sides - 2) * 180
+print("result is",sum_of_angles)
+
+b=int(input("enter base"))
+h=int(input("enter height"))
+a=0.5*b*h
+print("result is  ",a)
+
+
+#CIRCLE
+print("number of degrees in circle is 180")
+
+d=int(input("enter diameter"))
+c=d*3.14
+print("result is  ",c)
+
+
+r=int(input("enter radius"))
+a=3.14*(r**2)
+print("result is  ",a)
+
+#CYLINDER
+r=int(input("enter radius"))
+h=int(input("enter height"))
+p=3.14
+v=p*(r**2)*h
+print("result is ",v)
+
+
+#CONE
+r=int(input("enter radius"))
+h=int(input("enter height"))
+P=3.14
+v=p*r*r*h/3
+print("result is  ",v)
+
+
+#SPHERE BALL
+r=int(input("enter radius"))
+p=3.14
+v=4/3*p*r*r*r
+print("result is  ",v)
+
+
+#ELECTRICTY
+kw=int(input("enter kilowatt -hour"))
+wh=kw*1000
+print("result is  ",wh)
+
+
+w=int(input("enter watts"))
+v=int(input("enter volts"))
+a=w/v
+print("result is  ",a)
+
+
+#TEMPERATURE
+f=int(input("enter fahrenheit"))
+celsius = (fahrenheit - 32) * 5/9
+print("result is  ",celsius)
+
+c=int(input("enter celsius"))
+fahrenheit = (celsius * 9/5) + 32
+print("result is  ",fahrenheit)
